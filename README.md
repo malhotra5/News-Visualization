@@ -21,10 +21,10 @@ I used heroku, to run the backend Python. You can run it locally, be editing the
 A user types in a topic the want to search up in the search bar. The topic is sent to the backend, where the most recent and popular topics are scraped of the web. NLTK is used to find if there are any similar articles related by theme, topic, etc. The information is sent to the frontend, where all the information is displayed in a network. The panel on the side, is a link to the actual article. 
 ## Results 
 Search Bar for searching news - \
-![GitHub Logo](/Images/search.jpg)
+![GitHub Logo](/Images/search.png)
 
 The visualization of news - \
-![GitHub Logo](/Images/results.jpg)
+![GitHub Logo](/Images/results.png)
 ## Built with
 * Python3
 * p5js
