@@ -18,7 +18,7 @@ Module names depend, and can easily be found on the web.
 ## Running the website
 I used heroku, to run the backend Python. You can run it locally, be editing the Javascript document 'visualize.js'. Search for the string 'http://news-visual.herokuapp.com/?topic=' and change it 'http://0.0.0.0:5000/?topic='. This will let you run the website locally. Now, to connect the backend to the frontend, or in simple terms for beginners, to make the project work run the python script 'api.py'. Then open the website and try it! 
 ## How it's made
-A user types in a topic the want to search up in the search bar. The topic is sent to the backend, where the most recent and popular topics are scraped of the web. NLTK is used to find if there are any similar articles related by theme, topic, etc. The information is sent to the frontend, where all the information is displayed in a network. The panel on the side, is a link to the actual article. 
+A user types in a topic the want to search up in the search bar. The topic is sent to the backend, where the most recent and popular topics are scraped of the web. NLTK is used to find if there are any similar articles related by theme, topic, etc. The information is sent to the frontend, where all the information is displayed in a network. The panel on the side, has links to the news websites of the articles. 
 ## Results 
 Search Bar for searching news - \
 ![GitHub Logo](/Images/search.png)
